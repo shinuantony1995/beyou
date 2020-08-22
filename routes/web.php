@@ -14,13 +14,24 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/about', function(){
+Route::get('/about',function(){
     return view('about');
 });
+     
+Route::resource("contact","ContactController");
+Auth::routes();
+
 Route::get('/blog', function(){
     return view('blog');
 });
-Route::get('/contact', function(){
-    return view('contact');
-});
+
+// Route::get('/contact', function(){
+//     $data=[
+//         "message"=>"Contact Us for your Quries",
+//         "items" =>['Call Us','or', 'Mail'],
+        
+//     ];
+//     return view('contact',$data);
+// });
+
 

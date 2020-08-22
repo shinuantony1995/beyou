@@ -78,10 +78,10 @@
 <div class="dropdown">
    <span ><img src="./images/home.png" width="30px" height="30px"></span> 
   <div class="dropdown-content">
-    <a href="./">Home</a>
+    <a href="../">Home</a>
     <a href="blog">Blog</a>
     <a href="about">About</a>
-    <a href="contact">Contact</a>
+    <a href="{{ route('contact.create')}}">Contact</a>
   </div>
 </div></span>
 <span><input type="text" id="search" name="serach" placeholder="Search...."></span>
