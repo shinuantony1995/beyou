@@ -59,20 +59,32 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 /* .dropdown:hover .dropbtn {background-color: #000;} */
+#search{
+  padding-top:19px;
+  height:30px;
+  width:95%;
+  border-radius: 13px;
+  font-size:10pt;
+  background-color:#000;
+  color:#fff;
+  text-align:center;
+  padding-bottom: 11px;
+}
 </style>
 </head>
 <body>
 <div class="container1">
+<span>
 <div class="dropdown">
-   <span ><img src="../images/home.png" width="30px" height="30px"></span> 
+   <span ><img src="./images/home.png" width="30px" height="30px"></span> 
   <div class="dropdown-content">
-    <a href="/">Home</a>
+    <a href="./">Home</a>
     <a href="blog">Blog</a>
     <a href="about">About</a>
     <a href="contact">Contact</a>
   </div>
-</div>
- 
+</div></span>
+<span><input type="text" id="search" name="serach" placeholder="Search...."></span>
 </div>
 <br>
 <div class="container">
