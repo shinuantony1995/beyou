@@ -35,7 +35,12 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
-          
+     $request->validate([
+         'fname'=>'required',
+         'lname'=>'required',
+         'country'=>'required',
+         'subject'=>'required'
+     ]);     
     }
 
     /**
