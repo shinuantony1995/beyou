@@ -38,4 +38,5 @@ Shifts for *PHP* include:
 - [Mysqli Shift - covert mysql to mysqli](https://laravelshift.com/upgrade-mysql-mysqli)
 #beyou
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/139f399b-e611-4182-86be-d1f521d72fdb/deploy-status)](https://app.netlify.com/sites/beyou/deploys)
  
